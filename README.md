@@ -1,8 +1,5 @@
-# computer-vision
-History of computer vision architectures, then and now. A focus on Classification, segmentation and object detection.
+# History and generations computer vision architectures. A focus on Classification, Segmentation and Object detection networks.
 
-
-## Convolutional Neural Networks
 
 | Paper | Date | Description |
 |---|---|---|
