@@ -3,8 +3,8 @@
 
 | Paper | Date | Description |
 |---|---|---|
-| [Neocognition](https://x) | 1979 | Introduced Convolutions. |
-| [ConvNet](https://x) | 1989 | Introduced Convolutions. |
+| [Neocognition](https://x) | 1979 | xx|
+| [ConvNet](https://x) | 1989 | xx |
 | [Lenet](https://ritvik19.medium.com/papers-explained-review-01-convolutional-neural-networks-78aeff61dcb3#4f26) | December 1998 | Introduced Convolutions. |
 | [Alex Net](https://ritvik19.medium.com/papers-explained-review-01-convolutional-neural-networks-78aeff61dcb3#f7c6) | September 2012 | Introduced ReLU activation and Dropout to CNNs. Winner ILSVRC 2012. |
 | [ZfNet](https://x) | 2013 | xx |
