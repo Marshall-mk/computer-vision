@@ -32,24 +32,50 @@
 | [Mobile Net V3](https://ritvik19.medium.com/papers-explained-review-01-convolutional-neural-networks-78aeff61dcb3#8eb6) | May 2019 | Uses AutoML to find the best possible neural network architecture for a given problem. |
 | [Efficient Net](https://ritvik19.medium.com/papers-explained-review-01-convolutional-neural-networks-78aeff61dcb3#560a) | May 2019 | Uses a compound scaling method to scale the network's depth, width, and resolution to achieve a high accuracy with a relatively low computational cost. |
 | [Vision Transformer](https://ritvik19.medium.com/papers-explained-25-vision-transformers-e286ee8bc06b) | October 2020 | Images are segmented into patches, which are treated as tokens and a sequence of linear embeddings of these patches are input to a Transformer |
+| [SwAV](https://x) | 2020 | Self-supervised learning approach for image classification |
+| [ResNesT](https://x) | 2022 | Designed to scale ResNet-style models to new levels of performance |
 | [DeiT](https://ritvik19.medium.com/papers-explained-39-deit-3d78dd98c8ec) | December 2020 | A convolution-free vision transformer that uses a teacher-student strategy with attention-based distillation tokens. |
 | [Swin Transformer](https://ritvik19.medium.com/papers-explained-26-swin-transformer-39cf88b00e3e) | March 2021 | A hierarchical vision transformer that uses shifted windows to addresses the challenges of adapting the transformer model to computer vision. |
+| [CaiT](https://x) | 2021 | Combines vision transformers with convolutional layers |
+| [T2T-ViT](https://x) | 2021 | Improved transformer-based vision models with token-to-token vision transformers. |
+| [TNT](https://x) | 2021 | Transformer in Transformer architecture for better hierarchical feature learning |
 | [BEiT](https://ritvik19.medium.com/papers-explained-27-beit-b8c225496c01) | June 2021 | Utilizes a masked image modeling task inspired by BERT in, involving image patches and visual tokens to pretrain vision Transformers. |
 | [MobileViT](https://ritvik19.medium.com/papers-explained-40-mobilevit-4793f149c434) | October 2021 | A lightweight vision transformer designed for mobile devices, effectively combining the strengths of CNNs and ViTs. |
 | [Masked AutoEncoder](https://ritvik19.medium.com/papers-explained-28-masked-autoencoder-38cb0dbed4af) | November 2021 | An encoder-decoder architecture that reconstructs input images by masking random patches and leveraging a high proportion of masking for self-supervision. |
 | [CoAtNet](https://x) | 2021 | CoAtNets (Convolution and Self-Attention Network)  |
 | [NFNet](https://x) | 2021 | xx |
+| [MLP-Mixer](https://x) | 2021 | Introduced mixer layers as an alternative to convolutional layers. |
+| [gMLP](https://x) | 2021 | Gated activations for better gradient flow |
 | [Conv Mixer](https://ritvik19.medium.com/papers-explained-29-convmixer-f073f0356526) | January 2022 | Processes image patches using standard convolutions for mixing spatial and channel dimensions. |
-
+| [Shuffle Transformer](https://x) | 2022 | Combined shuffle units with transformer blocks for efficient processing |
+| [CrossViT](https://x) | 2022 | Combines vision transformers with convolutional layers |
+| [RegNet](https://x) | 2023 | Introduced a design space exploration approach to neural network architecture search, producing efficient and high-performing models for image classification and other tasks |
 
 ## Object Detection
 
 | Paper | Date | Description |
 |---|---|---|
-| [SSD](https://ritvik19.medium.com/papers-explained-31-single-shot-multibox-detector-14b0aa2f5a97) | December 2015 | Discretizes bounding box outputs over a span of various scales and aspect ratios per feature map. |
-| [Feature Pyramid Network](https://ritvik19.medium.com/papers-explained-21-feature-pyramid-network-6baebcb7e4b8) | December 2016 | Leverages the inherent multi-scale hierarchy of deep convolutional networks to efficiently construct feature pyramids. |
-| [Focal Loss](https://ritvik19.medium.com/papers-explained-22-focal-loss-for-dense-object-detection-retinanet-733b70ce0cb1) | August 2017 | Addresses class imbalance in dense object detectors by down-weighting the loss assigned to well-classified examples. |
 | [RCNN](https://ritvik19.medium.com/papers-explained-14-rcnn-ede4db2de0ab) | November 2013 | Uses selective search for region proposals, CNNs for feature extraction, SVM for classification followed by box offset regression. |
+| [SPPNet](https://x) | 2014 | Spatial Pyramid Pooling Network. |
 | [Fast RCNN](https://ritvik19.medium.com/papers-explained-15-fast-rcnn-28c1792dcee0) | April 2015 | Processes entire image through CNN, employs RoI Pooling to extract feature vectors from ROIs, followed by classification and BBox regression. |
 | [Faster RCNN](https://ritvik19.medium.com/papers-explained-16-faster-rcnn-a7b874ffacd9) | June 2015 | A region proposal network (RPN) and a Fast R-CNN detector, collaboratively predict object regions by sharing convolutional features. |
+| [YOLOv1](https://x) | 2015 | You only look Once V1. |
+| [SSD](https://ritvik19.medium.com/papers-explained-31-single-shot-multibox-detector-14b0aa2f5a97) | December 2015 | Discretizes bounding box outputs over a span of various scales and aspect ratios per feature map. |
+| [RFCN](https://x) | 2016 | Region-based Fully Convolutional Networks. |
+| [YOLOv2](https://x) | 2016 | You only look Once V2. |
+| [Feature Pyramid Network](https://ritvik19.medium.com/papers-explained-21-feature-pyramid-network-6baebcb7e4b8) | December 2016 | Leverages the inherent multi-scale hierarchy of deep convolutional networks to efficiently construct feature pyramids. |
 | [Mask RCNN](https://ritvik19.medium.com/papers-explained-17-mask-rcnn-82c64bea5261) | March 2017 | Extends Faster R-CNN to solve instance segmentation tasks, by adding a branch for predicting an object mask in parallel with the existing branch. |
+| [Focal Loss](https://ritvik19.medium.com/papers-explained-22-focal-loss-for-dense-object-detection-retinanet-733b70ce0cb1) | August 2017 | Addresses class imbalance in dense object detectors by down-weighting the loss assigned to well-classified examples. |
+| [RetinaNet](https://x) | 2017 | xx |
+| [Cascade RCNN](https://x) | 2018 | xx |
+| [YOLOv3](https://x) | 2018 | You only look Once V3. |
+| [EfficientDet](https://x) | 2019 | xx |
+| [CenterNet](https://x) | 2019 | xx |
+| [DETR](https://x) | 2020 | Detection Transformer |
+| [YOLOv4](https://x) | 2020 | You only look Once V4. |
+| [YOLOv5](https://x) | 2020 | You only look Once V5. |
+| [YOLOv6](https://x) | 2022 | You only look Once V6. |
+| [YOLOv7](https://x) | 2022 | You only look Once V7. |
+| [YOLOv8](https://x) | 2023 | You only look Once V8. |
+| [YOLO-NAS](https://x) | 2023 | xx. |
+
