@@ -1,4 +1,4 @@
-# History and generations of computer vision architectures. A focus on Classification, Segmentation and Object detection networks.
+## History and generations of computer vision architectures. A focus on Classification, Segmentation and Object detection networks.
 
 
 | Paper | Date | Description |
@@ -40,6 +40,7 @@
 | [CoAtNet](https://x) | 2021 | CoAtNets (Convolution and Self-Attention Network)  |
 | [NFNet](https://x) | 2021 | xx |
 | [Conv Mixer](https://ritvik19.medium.com/papers-explained-29-convmixer-f073f0356526) | January 2022 | Processes image patches using standard convolutions for mixing spatial and channel dimensions. |
+
 
 ## Object Detection
 
