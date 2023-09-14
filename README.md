@@ -1,4 +1,4 @@
-## History and generations of computer vision architectures. A focus on Classification, Segmentation and Object detection networks.
+## History of computer vision architectures. A focus on Classification, Segmentation and Object detection networks.
 
 
 | Paper | Date | Description |
